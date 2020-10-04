@@ -1,0 +1,65 @@
+{
+    "data": [
+      {
+        "fill": "toself",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        },
+        "mode": "markers",
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(31,119,180,1)"
+          },
+          "color": "rgba(31,119,180,1)"
+        },
+        "fillcolor": "rgba(31,119,180,0.5)"
+      },
+      {
+        "fill": "toself",
+        "line": {
+          "color": "darkred"
+        },
+        "meta": {
+          "columnNames": {
+            "r": "B",
+            "theta": "A"
+          }
+        },
+        "mode": "markers+lines",
+        "name": "Distrito 1",
+        "rsrc": "mandalarotation:248:d25029",
+        "r": [
+          "0.042518656890612",
+          "3.1984620256092",
+          "1.07511094712382",
+          "0.004554776607392",
+          "0.14657543584155",
+          "0.961472427573928",
+          "0.159429734126441"
+        ],
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(255,127,14,1)"
+          },
+          "color": "darkred"
+        },
+        "visible": true,
+        "thetasrc": "mandalarotation:248:3c239c",
+        "theta": [
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "fillcolor": [
+          "darkred"
+        ]
+      }
+    ]}

@@ -1,0 +1,249 @@
+{
+    "data": [
+      {
+        "fill": "toself",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        },
+        "mode": "markers",
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(31,119,180,1)"
+          },
+          "color": "rgba(31,119,180,1)"
+        },
+        "fillcolor": "rgba(31,119,180,0.5)"
+      },
+      {
+        "fill": "toself",
+        "line": {
+          "color": "darkred"
+        },
+        "meta": {
+          "columnNames": {
+            "r": "B",
+            "theta": "A"
+          }
+        },
+        "mode": "markers+lines",
+        "name": "Distrito 1",
+        "rsrc": "mandalarotation:248:d25029",
+        "r": [
+          "0.042518656890612",
+          "3.1984620256092",
+          "1.07511094712382",
+          "0.004554776607392",
+          "0.14657543584155",
+          "0.961472427573928",
+          "0.159429734126441"
+        ],
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(255,127,14,1)"
+          },
+          "color": "darkred"
+        },
+        "visible": "legendonly",
+        "thetasrc": "mandalarotation:248:3c239c",
+        "theta": [
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "fillcolor": [
+          "darkred"
+        ]
+      },
+      {
+        "fill": "toself",
+        "line": {
+          "color": "darkblue"
+        },
+        "meta": {
+          "columnNames": {
+            "r": "D",
+            "theta": "C"
+          }
+        },
+        "mode": "markers+lines",
+        "name": "Distrito 2",
+        "rsrc": "mandalarotation:248:675b06",
+        "r": [
+          "0.043928675782769",
+          "5.38793166752924",
+          "1.20041712657609",
+          "0.004835415918473",
+          "0.417526859711535",
+          "5.21400845949558",
+          "0.14639878955534"
+        ],
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(44,160,44,1)"
+          },
+          "color": "darkblue"
+        },
+        "visible": true,
+        "thetasrc": "mandalarotation:248:6e5bac",
+        "theta": [
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "fillcolor": [
+          "darkblue"
+        ]
+      },
+      {
+        "fill": "toself",
+        "line": {
+          "color": "darkorange"
+        },
+        "meta": {
+          "columnNames": {
+            "r": "F",
+            "theta": "E"
+          }
+        },
+        "mode": "markers+lines",
+        "name": "Distrito 3",
+        "rsrc": "mandalarotation:248:396253",
+        "r": [
+          "0.010554650814513",
+          "3.50162185261533",
+          "0.512933472530565",
+          "0.005080273632738",
+          "0.043133857838519",
+          "4.47814467515719",
+          "0.122251454295688"
+        ],
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(214,39,40,1)"
+          },
+          "color": "darkorange"
+        },
+        "visible": "legendonly",
+        "thetasrc": "mandalarotation:248:9b560f",
+        "theta": [
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "fillcolor": [
+          "darkorange"
+        ]
+      },
+      {
+        "fill": "toself",
+        "line": {
+          "color": "darkgreen"
+        },
+        "meta": {
+          "columnNames": {
+            "r": "H",
+            "theta": "G"
+          }
+        },
+        "mode": "markers+lines",
+        "name": "Distrito 4",
+        "rsrc": "mandalarotation:248:8f5715",
+        "r": [
+          "0.006219352177164",
+          "4.17024036439183",
+          "0.242027830834841",
+          "0.005342134202737",
+          "0.034207142312394",
+          "8.90507539809999",
+          "0.290078811899785"
+        ],
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(148,103,189,1)"
+          },
+          "color": "darkgreen"
+        },
+        "visible": "legendonly",
+        "thetasrc": "mandalarotation:248:50d417",
+        "theta": [
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "fillcolor": [
+          "darkgreen"
+        ]
+      },
+      {
+        "fill": "toself",
+        "line": {
+          "color": "gold"
+        },
+        "meta": {
+          "columnNames": {
+            "r": "J",
+            "theta": "I"
+          }
+        },
+        "mode": "markers+lines",
+        "name": "Distrito 5",
+        "rsrc": "mandalarotation:248:693595",
+        "r": [
+          "0.004894386667717",
+          "11.5126352759222",
+          "0.007620341251127",
+          "0.005245259421279",
+          "0.003200850376991",
+          "0.01217687735062",
+          "0.62868476946867"
+        ],
+        "type": "scatterpolar",
+        "frame": null,
+        "marker": {
+          "line": {
+            "color": "rgba(140,86,75,1)"
+          },
+          "color": "gold"
+        },
+        "visible": "legendonly",
+        "thetasrc": "mandalarotation:248:d3532e",
+        "theta": [
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "fillcolor": [
+          "gold"
+        ]
+      }
+    ]}

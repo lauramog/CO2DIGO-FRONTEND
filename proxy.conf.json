@@ -1,0 +1,7 @@
+{
+    "/heatmaps.php/": {
+      "target": "https://mc.lanzip.com",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
