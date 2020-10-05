@@ -7,16 +7,16 @@
   [asideMenuToggler]="'lg'">
   <ul class="nav navbar-nav d-md-down-none">
     <li class="nav-item px-3">
-      <a class="nav-link" href="#">Tablero</a>
+      <a class="nav-link" href="https://2020.spaceappschallenge.org/locations/cali/">SpaceApps</a>
     </li>
     <li class="nav-item px-3">
-      <a class="nav-link" href="#">Usuario</a>
+      <a class="nav-link" href="https://2020.spaceappschallenge.org/challenges/inform/carbon-footprint/details">What Is Our Carbon Footprint?</a>
     </li>
     <li class="nav-item px-3">
-      <a class="nav-link" href="#">Configuraciones</a>
+      <a class="nav-link" href="https://disc.gsfc.nasa.gov/datasets/OCO3_L2_Standard_Early/summary?keywords=oco-3">OCO3</a>
     </li>
   </ul>
-  <ul class="nav navbar-nav ml-auto">
+ <!--  <ul class="nav navbar-nav ml-auto">
     <li class="nav-item d-md-down-none">
       <a class="nav-link" href="#"><i class="icon-bell"></i><span class="badge badge-pill badge-danger">5</span></a>
     </li>
@@ -46,7 +46,7 @@
         <a class="dropdown-item" href="#"><i class="fa fa-lock"></i> Cerrar Sesión</a>
       </div>
     </li>
-  </ul>
+  </ul> -->
 </app-header>
 <div class="app-body">
   <app-sidebar #appSidebar [fixed]="true" [display]="'lg'" [minimized]="sidebarMinimized" (minimizedChange)="toggleMinimize($event)">
@@ -82,7 +82,7 @@
     <div class="container-fluid">
       <router-outlet></router-outlet>
     </div><!-- /.container-fluid -->
-  </main>
+<!--   </main>
   <app-aside [fixed]="true" [display]="false" [ngClass]="'test'">
     <tabset>
       <tab>
@@ -334,7 +334,7 @@
       </tab>
     </tabset>
   </app-aside>
-</div>
+</div> -->
 <app-footer>
   <span><a href="https://coreui.io">CoreUI</a> &copy; 2018 creativeLabs.</span>
   <span class="ml-auto">Powered by <a href="https://coreui.io/angular">CoreUI for Angular</a></span>
