@@ -1,7 +1,112 @@
 <div class="main-content">
-  <div class="container-fluid">
-    <div class="container">
-      <plotly-plot [data]="graph.data" [layout]="graph.layout"></plotly-plot>
+    <div class="container-fluid">
+        <div class="wrapper">
+            <div class="box" id="graphBox01">
+                <div class="card card-chart">
+                    <div class="card-header card-header-minminas">
+                        <h4 class="card-title inline-block">CANTIDAD DE MUESTRAS POR TÉCNICA</h4>
+                        <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox01')"><i class="material-icons">fullscreen</i></span>
+                    </div>
+                    <div class="card-note">
+                        <span class="icon-box">
+                            <i class="material-icons">info_outline</i>
+                        </span>
+                        <p>Cantidad de muestras en porcentajes registradas y analizadas por cada técnica con respecto al total de muestras existentes en el banco de datos.</p>
+                    </div>
+                    <div class="card-body">
+                        <plotly-plot [data]="libgrafica.graficos.barranquilla.plotp.data" [layout]="libgrafica.graficos.barranquilla.plotp.layout"></plotly-plot>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="graphBox02">
+                <div class="card card-chart">
+                    <div class="card-header card-header-minminas">
+                        <h4 class="card-title inline-block">CANTIDAD DE MUESTRAS POR FUENTE</h4>
+                        <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox02')"><i class="material-icons">fullscreen</i></span>
+                    </div>
+                    <div class="card-note">
+                        <span class="icon-box">
+                            <i class="material-icons">info_outline</i>
+                        </span>
+                        <p>Cantidad de muestras en porcentaje con respecto al total de muestras que se han registrado en el banco de datos de acuerdo a su fuente u origen (roca, aluvial, planta de beneficio, forense [Problema]).</p>
+                    </div>
+                    <div class="card-body">
+                        <plotly-plot [data]="libgrafica.graficos.bogota.plotp.data" [layout]="libgrafica.graficos.bogota.plotp.layout"></plotly-plot>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="graphBox03">
+                <div class="card card-chart">
+                    <div class="card-header card-header-minminas">
+                        <h4 class="card-title inline-block">CANTIDAD DE MUESTRAS POR DISTRITO</h4>
+                        <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox03')"><i class="material-icons">fullscreen</i></span>
+                    </div>
+                    <div class="card-note">
+                        <span class="icon-box">
+                            <i class="material-icons">info_outline</i>
+                        </span>
+                        <p>Cantidad de muestras en porcentaje que existen en el banco de datos por cada distrito.</p>
+                    </div>
+                    <div class="card-body">
+                        <plotly-plot [data]="libgrafica.graficos.bucaramanga.plotp.data" [layout]="libgrafica.graficos.bucaramanga.plotp.layout"></plotly-plot>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="graphBox05">
+                <div class="card card-chart">
+                    <div class="card-header card-header-minminas">
+                        <h4 class="card-title inline-block">CANTIDAD POR TIPO DE TÉCNICA Y TIPO DE FUENTE</h4>
+                        <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox05')"><i class="material-icons">fullscreen</i></span>
+                    </div>
+                    <div class="card-note">
+                        <span class="icon-box">
+                            <i class="material-icons">info_outline</i>
+                        </span>
+                        <p>En este gráfico se observa la cantidad por tipo de técnica que hay por cada tipo de fuente, además se puede seleccionar un tipo de técnica y visualizar la fuente.</p>
+                    </div>
+                    <div class="card-body">
+                        <plotly-plot [data]="libgrafica.graficos.cali.plotp.data" [layout]="libgrafica.graficos.cali.plotp.layout"></plotly-plot>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="graphBox06">
+                <div class="card card-chart">
+                    <div class="card-header card-header-minminas">
+                        <h4 class="card-title inline-block">Cantidad de muestras por Distrito y Fuente</h4>
+                        <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox06')"><i class="material-icons">fullscreen</i></span>
+                    </div>
+                    <div class="card-note">
+                        <span class="icon-box">
+                            <i class="material-icons">info_outline</i>
+                        </span>
+                        <p>En este gráfico se puede visualizar la cantidad de tipo de muestra que hay para cada distrito y se puede seleccionar un tipo de muestra para visualizar en el gráfico por cada distrito.</p>
+                    </div>
+                    <div class="card-body">
+                        <plotly-plot [data]="libgrafica.graficos.medellin.plotp.data" [layout]="libgrafica.graficos.medellin.plotp.layout"></plotly-plot>
+                    </div>
+                </div>
+            </div>
+             <div class="box" id="graphBox06">
+                <div class="card card-chart">
+                    <div class="card-header card-header-minminas">
+                        <h4 class="card-title inline-block">Cantidad de muestras por Distrito y Fuente</h4>
+                        <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox06')"><i class="material-icons">fullscreen</i></span>
+                    </div>
+                    <div class="card-note">
+                        <span class="icon-box">
+                            <i class="material-icons">info_outline</i>
+                        </span>
+                        <p>En este gráfico se puede visualizar la cantidad de tipo de muestra que hay para cada distrito y se puede seleccionar un tipo de muestra para visualizar en el gráfico por cada distrito.</p>
+                    </div>
+                    <div class="card-body">
+                        <plotly-plot [data]="libgrafica.graficos.santamarta.plotp.data" [layout]="libgrafica.graficos.santamarta.plotp.layout"></plotly-plot>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!------------------------------------------------------------------------->
+
     </div>
-  </div>
 </div>

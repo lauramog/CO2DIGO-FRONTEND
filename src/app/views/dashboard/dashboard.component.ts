@@ -1,35 +1,25 @@
 import { Component, OnInit} from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { HttpExampleService } from '../../services/http-example.service';
+import {LibGraficaService} from '../../services/lib-grafica.service';
 
 //import layout from "../../../assets/base_json_graficos/box_plot/layout.json"
 
 
 @Component({
-  templateUrl: 'dashboard.component.html'
+  templateUrl: 'dashboard.component.html',
 })
 export class DashboardComponent implements OnInit {
 
-  
-  public graph = {
-        data: [
-            { x: [1, 2, 3], y: [2, 6, 3], type: 'scatter', mode: 'lines+points', marker: {color: 'red'} },
-            { x: [1, 2, 3], y: [2, 5, 3], type: 'bar' },
-        ],
-        layout: {width: 320, height: 240, title: 'A Fancy Plot'}
-    };
 
 
-
-
-  constructor(public sanitizer: DomSanitizer, private httpjson: HttpExampleService) {
+  constructor(public sanitizer: DomSanitizer, private httpjson: HttpExampleService, public libgrafica: LibGraficaService) {console.log(this.libgrafica.graficos)
    }
 
 
 
-
-  ngOnInit():void {
-     
+    ngOnInit():void {
+        console.log(this.libgrafica.graficos.barranquilla.plotp.data)
   }
 
 }
