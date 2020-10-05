@@ -4,14 +4,14 @@
            <div class="box" id="graphBox01">
                 <div class="card card-chart">
                     <div class="card-header card-header-minminas">
-                        <h4 class="card-title inline-block">CO concentration in the City of Baranquilla – Colombia</h4>
+                        <h4 class="card-title inline-block">Map OCO3</h4>
                         <span class="inline-block pull-right toggle-fullscreen" (click)="toogleFullscreen('#graphBox01')"><i class="material-icons"></i></span>
                     </div>
                     <div class="card-note">
                         <span class="icon-box">
                             <i class="material-icons"></i>
                         </span>
-                        <p>The graph shows the concentrations of CO (Carbon Monoxide) in micrograms per cubic meter [µg / m3] of the city of Barranquilla - Colombia, in the periods from December 31, 2015 to November 30, 2017..</p>
+                        <p>xco2 Map in Colombia taken from OCO-3</p>
                     </div>
                     <div class="card-body">
                         <plotly-plot [data]="libgrafica.graficos.map.plotp.data" [layout]="libgrafica.graficos.map.plotp.layout"></plotly-plot>

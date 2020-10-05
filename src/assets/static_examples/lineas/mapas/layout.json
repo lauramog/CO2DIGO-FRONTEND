@@ -1,7 +1,7 @@
    { "layout": {
         "geo": {},
         "title": {
-            "text": "                                                                      xco2  Map in Colombia taken from OCO-3"
+            "text": "The color of the points represents xco2 magnitude where blue is a higher value than red. The size of the points represents the uncertainty, greater uncertainty increases size."
         },
         "xaxis": {
             "range": [
